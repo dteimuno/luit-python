@@ -15,9 +15,9 @@ for file in glob.glob(cwd + '/*'):
     cd_dictionary = {'path': file, 'size': os.path.getsize(file)}
     #To append dictionary into list:
     cd_files.append(cd_dictionary)
-
-
-print(cd_files)
+    
+for i in cd_files:   
+    print(i)
 
 
 
