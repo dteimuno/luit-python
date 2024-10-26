@@ -14,7 +14,7 @@ spanish_animals = {
 print(spanish_animals['cat'])
 
 city_ratings = {
-    'Bangkok' = [7,4,7,5]
-    'Hanoi' = [7,6,4,5]
-    'Maila' = [6,6,4,4,5]
+    'Bangkok' == [7,4,7,5],
+    'Hanoi' == [7,6,4,5],
+    'Maila' == [6,6,4,4,5]
 }
