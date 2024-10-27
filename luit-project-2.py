@@ -16,8 +16,9 @@ for file in glob.glob(cwd + '/*'):
     #To append dictionary into list:
     cd_files.append(cd_dictionary)
 
-
-print(cd_files)
+#Printing cd_files vertically:    
+for i in cd_files:   
+    print(i)
 
 
 
